@@ -1,0 +1,66 @@
+:root {
+    /* declare a variable with `--` syntax */
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.3;
+  }
+  
+/* items in header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    /* use CSS var() function to reference a variable created above */
+    background-color: tan;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 200%;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+
+  nav a {
+    background-color: unset;
+    color: var(--navlink-color);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  
+    
+  /* Items in main */
+  main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 96%;
+    margin: 2% auto;
+  }
+  
+  h2 {
+    margin: 2% 0;
+    font-size: 100%;
+  }
+
+  article {
+    /* If we were to change the value of `--dark`, then all references to it would change automatically */
+    font-size: 110%;
+  }
+
+  /* Items in footer */
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: tan;
+    color: white;
+  }
