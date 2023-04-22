@@ -1,13 +1,6 @@
-:root {
+/*:root {}
     /* declare a variable with `--` syntax */
-}
 
-body {
-    display: flex;
-    flex-direction: row;
-    line-height: 1.3;
-  }
-  
 /* items in header */
   header {
     display: flex;
