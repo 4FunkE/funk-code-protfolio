@@ -6,14 +6,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding: 10px;
     /* use CSS var() function to reference a variable created above */
     background-color: tan;
     color: white;
   }
+
+  .first-letter {
+    color: red;
+  }
   
   h1 {
     font-size: 300%;
+    padding: 10px;
+    background-color: rgb(120, 90, 34);
+    border-style: solid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
 
