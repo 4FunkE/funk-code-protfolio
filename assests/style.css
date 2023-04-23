@@ -13,20 +13,21 @@
   }
   
   h1 {
-    font-size: 200%;
+    font-size: 300%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
 
   nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
+    min-width: 200px;
   }
 
-  nav a {
+  nav li {
     background-color: unset;
-    color: var(--navlink-color);
-    font-weight: bold;
-    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   
@@ -34,9 +35,30 @@
   /* Items in main */
   main {
     display: flex;
-    flex: 1 1 0;
+    flex-direction: column;
     max-width: 96%;
     margin: 2% auto;
+  }
+
+  section {
+    display: inline-flex;
+  }
+
+  .about img {
+    background-color: red;
+    width: 90px;
+    height: auto;
+    padding: 20px;
+    border: 1px solid black;
+  }
+
+  .work img {
+    display: flex;
+    background-color: #fff;
+    width: 90px;
+    height: auto;
+    padding: 20px;
+    border: 1px solid black;
   }
   
   h2 {
