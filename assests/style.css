@@ -51,47 +51,70 @@
   /* Items is everything in main */
   main {
     display: flex;
+    flex-direction: column;
     margin: 10px;
   }
 
-  /* Items for the aside opener message */
+  /* Words for the opener message */
+  h2 {
+    font-size: 60px;
+    font-style: oblique;
+    max-width: 400px;
+  }
+
+  .portfolio-letters {
+    color: blue;
+  }
+
+  p {
+    font-size: 150%;
+  }
+
+  /* box for the opener message */
   .welcome-opener {
-    flex: 70%;
+    max-width: 800px;
+    height: 500px;
     background-color: #cec876;
     padding: 20px;
     flex-wrap: wrap;
   }
 
-  .profile-image {
-    flex: 30%;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid black;
-  }
-
-  #about {
-    background-color: red;
-    width: 90px;
+  /* Image for the opener message */
+  #profile-img {
+    width: 300px;
     height: auto;
+    position: absolute;
+    top: 200px;
+    right: 60px;
   }
 
   /* Items for work section */
-  .work img {
-    display: flex;
-    background-color: #fff;
-    width: 90px;
-    height: auto;
-    padding: 20px;
-    border: 1px solid black;
+  .work {
+    flex: 70%
   }
-  
-  h2 {
+
+  h3 {
     margin: 2% 0;
     font-size: 100%;
   }
 
+  .work img {
+    width: 300px;
+    height: auto;
+  }
+
+  #coming-soon {
+    padding: 70px;
+    border: 1px solid black;
+  }
+  
+/*contact section*/
+  h3 {
+  font-size: 100%;
+  }
+
   article {
-    /* If we were to change the value of `--dark`, then all references to it would change automatically */
+    margin: 2% 0;
     font-size: 110%;
   }
 
