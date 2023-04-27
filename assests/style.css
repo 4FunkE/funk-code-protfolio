@@ -57,6 +57,7 @@
 
   /* Words for the opener message */
   h2 {
+    flex: 30%;
     font-size: 60px;
     font-style: oblique;
     max-width: 400px;
@@ -67,13 +68,16 @@
   }
 
   .opener {
+    flex: 30%;
     font-size: 150%;
   }
 
   /* box for the opener message */
   .welcome-opener {
-    max-width: 800px;
-    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 65%;
+    height: auto;
     background-color: #cec876;
     padding: 20px;
     flex-wrap: wrap;
@@ -81,6 +85,10 @@
 
   /* Image for the opener message */
   #profile-img {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0;
+    justify-content: right;
     width: 300px;
     height: auto;
     position: absolute;
@@ -94,27 +102,33 @@
   }
   
   #work-letters {
-    background-color: #b9c6ae;
-    width: 10%;
-    height: auto;
-    padding: 10%;
-    font-size: 500%;
+    padding: 60px;
+    border-style: none solid none none;
+    font-size: 300%;
   }
 
-  .work img {
-    max-width: 50%;
-    height: 50%;
+  #work-image1 {
+    max-width: 70%;
+    height: auto;
+    padding: 20px;
   }
 
   #studyguide-app {
-    max-width: 80%;
+    max-width: 35%;
     height: auto;
+    padding: 20px;
   }
 
   #coming-soon {
-    padding: 70px;
-    border: 1px solid black;
+    max-width: 20%;
+    height: auto;
+    padding: 20px;
   }
+
+  img:hover {
+    cursor: help;
+    position: relative;
+}
   
 /*contact section*/
   h3 {

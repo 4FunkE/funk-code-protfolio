@@ -16,7 +16,7 @@ This website is used to introduce the skills and background of a beginer webdeve
 No installation is needed. Please follow the uniform resource locator to interact with the webpage. ADD URL HERE
 
 ## Usage
-This is a preview of the website page and information on the website.
+This is a preview of the website page and information on the website. Hover over each image to veiw its title.
 
 '''
  ![alt-text](/)
