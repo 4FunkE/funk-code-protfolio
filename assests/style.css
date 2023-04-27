@@ -85,49 +85,66 @@
 
   /* Image for the opener message */
   #profile-img {
-    box-sizing: border-box;
     display: flex;
-    flex: 0;
+    flex: 30%;
     justify-content: right;
     width: 300px;
     height: auto;
-    position: absolute;
-    top: 200px;
-    right: 60px;
+    
   }
 
-  /* Items for work section */
-  .work {
+  /* words for work section */
+  .work-section {
     display: flex;
   }
-  
-  #work-letters {
+
+  .work-letters {
     padding: 60px;
     border-style: none solid none none;
     font-size: 300%;
   }
 
+  /* images for work section */
+  .web-imges {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    flex: 30%;
+    max-width: 60%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
   #work-image1 {
-    max-width: 70%;
+    max-width: 500%;
     height: auto;
-    padding: 20px;
+    padding: 15px;
   }
 
   #studyguide-app {
-    max-width: 35%;
+    max-width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 15px;
   }
 
   #coming-soon {
-    max-width: 20%;
+    max-width: 25%;
     height: auto;
-    padding: 20px;
+    padding: 40px 17px;
   }
 
   img:hover {
     cursor: help;
     position: relative;
+    background-color: red;
 }
   
 /*contact section*/
@@ -147,4 +164,18 @@
     padding: 2%;
     background-color: tan;
     color: white;
+  }
+
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
   }
