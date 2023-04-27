@@ -57,40 +57,34 @@
 
   /* Words for the opener message */
   h2 {
-    flex: 30%;
     font-size: 60px;
     font-style: oblique;
-    max-width: 400px;
+    max-width: 30%;
+    background-color: #cec876;
   }
 
   .portfolio-letters {
     color: blue;
   }
 
-  .opener {
-    flex: 30%;
-    font-size: 150%;
-  }
-
   /* box for the opener message */
-  .welcome-opener {
+  .about {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 65%;
-    height: auto;
-    background-color: #cec876;
-    padding: 20px;
-    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .opener {
+    flex: 60%;
+    font-size: 150%;
+    background-color: aqua;
   }
 
   /* Image for the opener message */
-  #profile-img {
-    display: flex;
+  .profile-img {
     flex: 30%;
-    justify-content: right;
-    width: 300px;
+    background-color: #150641;
+    width: 90px;
     height: auto;
-    
   }
 
   /* words for work section */
