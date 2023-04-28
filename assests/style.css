@@ -11,7 +11,7 @@
     height: 100px;
     /* use CSS var() function to reference a variable created above */
     background-color: tan;
-    color: white;
+    color: rgb(27, 26, 26);
   }
 
   /* style for my name */
@@ -52,6 +52,7 @@
   main {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin: 10px;
   }
 
@@ -59,7 +60,7 @@
   h2 {
     font-size: 60px;
     font-style: oblique;
-    max-width: 30%;
+    
     background-color: #cec876;
   }
 
@@ -93,7 +94,7 @@
   }
 
   .work-letters {
-    padding: 60px;
+    padding: 20px;
     border-style: none solid none none;
     font-size: 300%;
   }
@@ -130,7 +131,7 @@
   }
 
   #coming-soon {
-    max-width: 25%;
+    max-width: 20%;
     height: auto;
     padding: 40px 17px;
   }
@@ -160,16 +161,59 @@
     color: white;
   }
 
-  @media screen and (max-width: 800px) {
+  /* Items for responsive web page */
+  @media screen and (max-width: 950px) {
+    .about-section {
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 840px) {
+    .work-section,
     .column {
-      flex: 50%;
-      max-width: 50%;
+      flex-direction: column;
+      border-style: solid none;
+    }
+  }
+
+  @media screen and (max-width: 875px) {
+    .profile-img {
+      max-width: 240px;
+      max-height: 340px;
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .column {
       flex: 100%;
       max-width: 100%;
+    }
+    .header {
+      flex-direction: column;
+      background-color: #bb8588;
+      color: #150641;
+    }
+    ul {
+      display: flex;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+    }
+  }
+
+  @media screen and (max-width: 685px) {
+    .profile-img {
+      max-width: 140px;
+      max-height: 140px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .work-letters, 
+    h1,
+    .column {
+      flex: 25%;
+      font-size: 200%;
+      padding: 0%;
     }
   }
