@@ -19,7 +19,7 @@ No installation is needed. Please follow the uniform resource locator to interac
 This is a preview of the website page and information on the website. Hover over each image to view its title.
 
 '''
- ![alt-text](/funk-code-protfolio/assests/images/prtfolio-website.png)
+ ![alt-text](https://raw.githubusercontent.com/4FunkE/funk-code-protfolio/main/assests/images/prtfolio-website.png)
  '''
 
 ## Credits
