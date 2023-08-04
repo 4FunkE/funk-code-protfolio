@@ -116,22 +116,16 @@
     width: 100%;
   }
 
-  #work-image1 {
-    max-width: 500%;
-    height: auto;
-    padding: 15px;
-  }
-
-  #studyguide-app {
+  #app-img {
     max-width: 100%;
     height: auto;
     padding: 15px;
   }
 
   #coming-soon {
-    max-width: 20%;
+    max-width: 100%;
     height: auto;
-    padding: 40px 17px;
+    padding: 15px;
   }
 
   img:hover {
