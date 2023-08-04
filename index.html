@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Funk Web Development Portfolio</title>
-    <link rel="stylesheet" href="./assests/style.css"/>
+    <link rel="stylesheet" href="./assests/style.css">
 </head>
 <!--Wireframe: https://docs.google.com/presentation/d/1k1i275ngfmGiacYGBxZx9aIetGxQuoiliCWBjjzVLgQ/edit#slide=id.p -->
 
@@ -16,16 +16,16 @@
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#app-img">Work</a></li>
+                <li><a href="#work">Work</a></li>
                 <li><a href="#contact-me">Contact</a></li>
             </ul>
         </nav>
-      </header>
+    </header>
  
 <!--Create 3 sections that are in a row. Inside the row add 2 columns-->
       <main>
         <!--about section-->
-        <section class="about-section">
+        <section class="about-section" id="about">
                 <h2>Welcome to my <span class="portfolio-letters">Portfolio</span>...</h2>
             <article class="about">
                 <p class="opener">I am an artist and teacher, and developing my skills in coding. I am a BFA/MS graduate of Pratt Institute, School of Art and Design located in Brooklyn, New York. For 6 years my field of study has been in Art and Design Education, however, I hope to grow my abilities in coding where I can apply my knowledge of design and education to contribute to the field of web development. I currently teach at Charlotte Lab Lower Schools.  I create personal art using Printmaking, Digital Photography, Performing Arts, Photography, Jewelry/Metal, Drawing, and Glass.</p>
@@ -35,16 +35,16 @@
         
         <!--works section-->
         <section class="work-section">
-            <p class="work-letters">Work</p>
+            <p class="work-letters" id="work">Work</p>
             <figure class="web-imges">
                 <div class="column" >
-                    <a href="https://shielded-everglades-30738-44134476de15.herokuapp.com/"><img src="C:\Users\emily\bootcamp\student-marks\public\image\Student-mark-image.png" id="app-img" title="🍎Student Mark" alt="🍎Student Mark website here"/></a>
-                    <a href="http://4funke.github.io/challenge1/"><img src="https://raw.githubusercontent.com/4FunkE/funk-code-protfolio/main/assests/images/Website-Image.jpg" id="app-img" title="Refactored Website; Horiseon" alt="Refactored website image here."/></a>
+                    <a href="https://shielded-everglades-30738-44134476de15.herokuapp.com/"><img src="./assests/images/Screenshot 2023-08-04 115426.png" class="app-img" title="🍎Student Mark" alt="🍎Student Mark website here"/></a>
+                    <a href="http://4funke.github.io/challenge1/"><img src="https://raw.githubusercontent.com/4FunkE/funk-code-protfolio/main/assests/images/Website-Image.jpg" class="app-img" title="Refactored Website; Horiseon" alt="Refactored website image here."/></a>
                 </div>
                 <div class="column">
-                    <a href="https://4funke.github.io/prework-study-guide/"><img src="https://raw.githubusercontent.com/4FunkE/funk-code-protfolio/main/assests/images/Website-Studyguide.png" id="app-img" title="Study Guide for Coding" alt="Coming soon..."/></a>
-                    <a href="https://braymurph.github.io/Dict-Pic/"><img src="./assests/images/Dict-pic-img.png" id="app-img" title="Dict.Pic." alt="Dict.Pic."/></a>
-                    <img src="C:\Users\emily\bootcamp\1Complete Assignments\funk-code-protfolio\assests\images\Coming-soon.jpg" id="coming-soon" title="Will be coding content soon!" alt="Coming soon..."/>
+                    <a href="https://4funke.github.io/prework-study-guide/"><img src="https://raw.githubusercontent.com/4FunkE/funk-code-protfolio/main/assests/images/Website-Studyguide.png" class="app-img" title="Study Guide for Coding" alt="Coming soon..."/></a>
+                    <a href="https://braymurph.github.io/Dict-Pic/"><img src="./assests/images/Dict-pic-img.png" class="app-img" title="Dict.Pic." alt="Dict.Pic."/></a>
+                    <img src="./assests/images/Coming-soon.jpg" id="coming-soon" title="Will be coding content soon!" alt="Coming soon..."/>
                 </div>    
             </figure>
         </section>
@@ -57,9 +57,7 @@
       </main>
  
       <footer>
-          <p>made with "code"</p>
-      </footer>
-  </body>
-  </html>
+        <p>Made with "code"</p>
+    </footer>
 </body>
 </html>
